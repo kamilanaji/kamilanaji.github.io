@@ -878,13 +878,13 @@ button:focus {
   padding: 25px 30px;
   text-align: center;
   background: #ffffff;
-  border-top: 3px solid #890025;
-  border-bottom: 3px solid #890025;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
   position: relative;
 }
 .serviceBox:before {
   content: '';
-  border-top: 0 solid #890025;
+  border-top: 0 solid #000000;
   border-right: 0 solid transparent;
   position: absolute;
   left: 0;
@@ -898,7 +898,7 @@ button:focus {
 }
 .serviceBox:after {
   content: '';
-  border-bottom: 0 solid #890025;
+  border-bottom: 0 solid #000000;
   border-left: 0 solid transparent;
   position: absolute;
   bottom: 0;
@@ -925,7 +925,7 @@ button:focus {
 .serviceBox .title {
   font-size: 20px;
   font-weight: 700;
-  color: #890025;
+  color: #00000;
   letter-spacing: 1px;
   margin: 0 0 12px 0;
   text-transform: uppercase;
